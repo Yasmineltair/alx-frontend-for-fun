@@ -59,6 +59,9 @@
     --section-footer-padding: 3rem 0 0;
     --section-footer-align: center;
   
+    /** HEADER **/
+    --header-padding: 4rem 0 0;
+  
     /** FOOTER **/
     --footer-padding: 5rem 0 1rem;
   
