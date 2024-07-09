@@ -21,19 +21,10 @@
   border: 1px solid lightgray;
 }
 
-.toggle-inner {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 0.9rem;
-}
-
 .toggle-inner::before {
   content: "Yes";
   color: white;
   padding-left: 6px;
-}
-
-.toggle-inner::after::before {
-  color: #c3c3c3;
 }
 
 .toggle-inner::after {
@@ -43,8 +34,8 @@
 }
 
 .toggle-cb {
-  -webkit-appearance: none;
-  -moz-appearance: none;
+  appearance: none;
+  appearance: none;
 }
 
 .toggle-cb:checked + .toggle-label::after {
